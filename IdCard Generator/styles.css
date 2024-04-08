@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img.jpg'); /* Add your background image URL here */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%; /* Adjust as needed */
+  max-width: 400px; /* Adjust container width */
+  margin: 20px auto;
+  background-color: rgba(144, 199, 227, 0.9); /* Semi-transparent white background */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #000;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"], select, button, input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #377e3a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0cef17;
+}
+
+.preview {
+  margin-left: 12%;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #000;
+  width: 70%;
+  height: auto;
+  background-image: url('img2.webp');
+}
+
+.preview img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.preview div {
+  font-size: 18px;
+  font-weight:500 ;
+}
